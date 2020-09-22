@@ -6,7 +6,7 @@
 注意：
 1. __不要__ 用 `root` 用户进行编译！！！
 2. 国内用户编译前最好准备好梯子
-3. 编译成功后，固件默认登陆IP 192.168.5.1, 用户名`root`，密码 `password`
+3. 编译成功后，固件默认登陆IP 192.168.1.1, 用户名`root`，密码 `password`
 
 **欢迎关注油管频道 [eSir Playground](https://www.youtube.com/c/esirplayground "esir playground") 观看相关的教学视频，并订阅我的油管频道**:blush:
 
@@ -81,14 +81,6 @@ make -j1 V=s
 Donate
 ===
 如果你觉得此项目对你有帮助，可以捐助给Lean（大雕），以鼓励项目能持续发展，更加完善
-
-
-Alipay 支付宝
-https://raw.githubusercontent.com/coolsnowwolf/lede/master/doc/alipay_donate.jpg
-
-Wechat 微信
-https://raw.githubusercontent.com/coolsnowwolf/lede/master/doc/wechat_donate.jpg
-
 
 -----   
 English Version: How to make your Openwrt firmware.
