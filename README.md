@@ -6,7 +6,6 @@
 注意：
 1. __不要__ 用 `root` 用户进行编译！！！
 2. 国内用户编译前最好准备好梯子
-3. 编译成功后，固件默认登陆IP 192.168.1.1, 用户名`root`，密码 `password`
 
 **欢迎关注油管频道 [eSir Playground](https://www.youtube.com/c/esirplayground "esir playground") 观看相关的教学视频，并订阅我的油管频道**:blush:
 
@@ -18,9 +17,7 @@
 ```bash
 sudo apt-get update
 ```
-然后输入命令搭建系统环境
-
-然后输入以下的命令
+然后搭建系统环境，输入以下命令：
 
 >sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget curl swig rsync
 
@@ -63,8 +60,11 @@ make V=s
 ```bash
 make -j1 V=s
 ```
+
+**编译成功后，固件默认登陆IP 192.168.1.1, 用户名`root`，密码 `password`**
+
 -----   
-本套代码保证肯定可以编译成功。里面包括了 R9 所有源代码，包括 IPK 的。
+本套代码保证肯定可以编译成功。里面包括了 R21 所有源代码，包括 IPK 的。
 
 你可以自由使用，但源码编译二次发布请注明Lean大的 GitHub 仓库链接。谢谢合作！
 
