@@ -12,7 +12,7 @@
 
 编译命令如下:
 
-1. 首先装好 Ubuntu 64bit，推荐  Ubuntu  18 LTS x64  
+1. 首先装好 Ubuntu 64bit，推荐  Ubuntu 20.04 LTS x64  
 2. 命令行输入
 
 ```bash
@@ -20,13 +20,9 @@ sudo apt-get update
 ```
 然后输入命令搭建系统环境
 
-以下的命令适用Ubuntu 18
+然后输入以下的命令
 
->sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev patch python3 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex node-uglify git gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx-ucl libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget curl swig rsync
-
-以下的命令适用Ubuntu 20
-
->sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev patch unzip lib32gcc1 libc6-dev-i386 subversion flex gcc-multilib g++-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils libelf-dev autoconf automake libtool autopoint device-tree-compiler python2.7 zlib1g-dev upx-ucl node-uglify antlr3 gperf wget swig rsync
+>sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget curl swig rsync
 
 **如果你使用`root`执行了以上命令，那从此时开始，你必须使用`非root`权限用户进行后续操作**
 
